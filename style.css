@@ -1,0 +1,61 @@
+
+/* Rest of the CSS code */
+
+h1{
+    text-align: center;
+  text-decoration: underline;}
+  .sidebar {
+      background-color: #bee4d1;
+      padding: 20px;
+      width: 200px;
+      height: 100%;
+      position: fixed;
+      overflow: auto;
+    }
+    
+    .sidebar h3 {
+      margin-top: 0;
+    }
+    
+    .sidebar ul {
+      padding: 0;
+      list-style-type: none;
+    }
+    
+    .sidebar li {
+      margin-bottom: 10px;
+    }
+    
+    .sidebar button {
+      width: 100%;
+      padding: 10px;
+      background-color: #1a3edb;
+      border: none;
+      text-align: left;
+      cursor: pointer;
+    }
+    
+    .sidebar button:hover {
+      background-color: hsl(212, 66%, 68%);
+    }
+    
+    .content {
+      margin-left: 220px;
+      padding: 0px;
+    }
+    
+    img {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+    .subsystem {
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #e6e6e6;
+    }
+    
+    .hidden {
+      display: none;
+    }
+    

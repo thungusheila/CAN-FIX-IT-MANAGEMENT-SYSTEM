@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Can-fix-it Facilities Management App</title>
+    <link rel="stylesheet" href="work managemnt.css">
+</head>
+<body>
+    <header>
+        <h1>Facilities Management App</h1>
+    </header>
+    <main>
+        <div class="work-order-form">
+
+            <button onclick="window.location.href = 'work-order-form.html';">NEW WORK ORDER</button>
+
+
+        </div>
+        <div class="work-order-list">
+            <h2>Work Orders</h2>
+            <ul id="work-order-list"></ul>
+        </div>
+        <!-- Modal for displaying full work order details -->
+<div id="work-order-modal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Work Order Details</h2>
+        <div id="full-work-order-details">
+            <!-- Work order details will be displayed here -->
+        </div>
+    </div>
+</div>
+    </main>
+    <script src="work management.js"></script>
+</body>
+</html>
