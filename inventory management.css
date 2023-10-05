@@ -1,0 +1,65 @@
+/* Styling for Inventory Management */
+
+/* Inventory List */
+#inventory-list {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#inventory-list h2 {
+    color: #333;
+    text-align: center;
+}
+
+#inventory-items ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#inventory-items li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    transition: background-color 0.2s ease-in-out;
+}
+
+#inventory-items li:hover {
+    background-color: #f2f2f2;
+}
+
+/* Low Stock Alert */
+#low-stock-alert {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#low-stock-alert h2 {
+    color: #333;
+    text-align: center;
+}
+
+#low-stock-items ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#low-stock-items li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ff0000; /* Red border for low stock items */
+    background-color: #ffebeb; /* Light red background for low stock items */
+    transition: background-color 0.2s ease-in-out;
+}
+
+#low-stock-items li:hover {
+    background-color: #ffc4c4; /* Slightly darker red on hover for low stock items */
+}
