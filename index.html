@@ -1,37 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Facilities Management</title>
-    <link rel="stylesheet" href="style.css">
+  <title>BMS Project Landing Page</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>can-fix-it facilities Management system</h1>
-    </header>
-    <div class="sidebar">
-        <h3>Subsystems</h3>
-        <ul>
-          <li><button onclick="openSubsystem('asset management.html')">Asset Management</button></li>
-          <li><button onclick="openSubsystem('work management.html')">Work-Order Management</button></li>
-          <li><button onclick="openSubsystem('service contract management.html')">Service contract management</button></li>
-          <li><button onclick="openSubsystem('inventory management.html')">Inventory management</button></li>
-          <li><button onclick="openSubsystem('preventive maintenance.html')"> scheduled preventive maintenance</button></li>
-          <li><button onclick="openSubsystem('reports.html')">Reports</button></li>
-          <li><button onclick="openSubsystem('broadcast.html')">Broadcast</button></li>
-        
-        </ul>
-      </div>
-    
-      <div class="content">
-        <img src="building-management-system-1.jpg" alt="Building image">
-      </div>
-      
-       <script>
-        function openSubsystem(subSystemUrl) {
-          window.location.href= subSystemUrl;
-        }
-      </script>
-    </body>
-    </html>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#screenshots">Screenshots</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+<section id="cover">
+    <div class="cover-image">
+      <img src="facility management.jpg"alt="Cover Image">
+    </div>
+  <section id="hero">
+    <div class="hero-content">
+      <h1>CAN-FIX-IT FACILITIES MANAGEMENT SYSTEM</h1>
+      <p>This facilities Management System is used to enhance the management and maintenance of facilities, assets, and resources within an organization..</p>
+      <a href="#contact" class="btn">Get in touch</a>
+      <a href=" https://thungusheila.github.io/CAN-FIX-IT-MANAGEMENT-SYSTEM/project.html" target="_blank" class="deployed-btn">Go to Project</a> 
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About</h2>
+      <p>This web-based application aims to improve operational efficiency, reduce downtime, and ensure the optimal functioning of physical assets, such as buildings, equipment, and infrastructure.The app allows users to catalog, track, and maintain an inventory of assets, including equipment, machinery, furniture, and more. It records essential asset information, such as location, maintenance history, and depreciation.    </p>
+    </div>
+  </section>
+
+  <section id="features" class="section">
+    <div class="container">
+      <h2>Features</h2>
+      <ul>
+        <li>Asset Management</li>
+        <li> Work Order Management</li>
+        <li> Preventive Maintenance</li>
+        <li> Service Contracts Management</li>
+        <li> Dashboard and Reporting</li>
+        <li>Inventory Management</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="screenshots" class="section">
+    <div class="container">
+      <h2>Screenshots</h2>
+      <!-- Add screenshots here -->
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>For inquiries and support, please reach out to us:</p>
+      <p>Email: thungusheila@gmail.com</p>
+      <p>Phone:+254719708614</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 CAN-FIX-IT FACILITIES MANAGEMENT  Project. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
