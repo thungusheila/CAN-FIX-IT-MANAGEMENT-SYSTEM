@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facilities Management</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+    <header>
+        <h1>can-fix-it facilities Management system</h1>
+    </header>
+    <div class="sidebar">
+        <h3>Subsystems</h3>
+        <ul>
+          <li><button onclick="openSubsystem('asset management.html')">Asset Management</button></li>
+          <li><button onclick="openSubsystem('work management.html')">Work-Order Management</button></li>
+          <li><button onclick="openSubsystem('service contract management.html')">Service contract management</button></li>
+          <li><button onclick="openSubsystem('inventory management.html')">Inventory management</button></li>
+          <li><button onclick="openSubsystem('schedule maintenance.html')"> scheduled preventive maintenance</button></li>
+          <li><button onclick="openSubsystem('reports.html')">Reports</button></li>
+          <li><button onclick="openSubsystem('broadcast.html')">Broadcast</button></li>
+        
+        </ul>
+      </div>
+    
+      <div class="content">
+        <img src="C:\Users\sheila.thungu\Downloads\Task\Task\building-management-system-1.jpg" alt="Building image">
+      </div>
+      
+       <script>
+        function openSubsystem(subSystemUrl) {
+          window.location.href= subSystemUrl;
+        }
+      </script>
+    </body>
+    </html>
